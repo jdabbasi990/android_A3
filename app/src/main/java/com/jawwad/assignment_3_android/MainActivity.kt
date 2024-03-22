@@ -325,9 +325,9 @@ fun Screen3() {
     val backgroundColor by remember(cycleCount) {
         mutableStateOf(
             when ((cycleCount % 4)) {
-                0 -> Color.Gray
-                1 -> Color.Red
-                2 -> Color.Yellow
+                0 -> Color.Yellow
+                1 -> Color.Blue
+                2 -> Color.Cyan
                 else -> Color.Green
             }
         )
